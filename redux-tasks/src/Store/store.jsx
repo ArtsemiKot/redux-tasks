@@ -6,6 +6,8 @@ import validPas from "../Slice/validPas";
 import filesize from "../Slice/filesize";
 import getlanguage from "../Slice/getlanguage";
 import listtasks from "../Slice/listtasks";
+import palindrom from "../Slice/palindrom";
+import palindrom2 from "../Slice/palindrom2";
 const store = configureStore({
     reducer: {
         counter1: counter1,
@@ -14,7 +16,9 @@ const store = configureStore({
         validPas: validPas,
         filesize: filesize,
         getlanguage: getlanguage,
-        listtasks:listtasks
+        listtasks:listtasks,
+        palindrom:palindrom,
+        palindrom2:palindrom2,
     }
 })
 

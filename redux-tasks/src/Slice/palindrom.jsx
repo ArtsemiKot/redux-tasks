@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const getinput = createSlice({
-  name: "getinput",
+const palindrom = createSlice({
+  name: "palindrom",
   initialState: "",
   reducers: {
     getStr: function (state, params) {
@@ -10,5 +10,5 @@ const getinput = createSlice({
   },
 });
 
-export const { getStr } = getinput.actions;
-export default getinput.reducer;
+export const { getStr } = palindrom.actions;
+export default palindrom.reducer;
